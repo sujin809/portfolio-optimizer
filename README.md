@@ -31,16 +31,14 @@ This project implements a **semi-automated portfolio construction and evaluation
 | 모멘텀 | **155.8%** | 1.84 | -19.01% |
 | 시가총액 | **266.4%** | 1.88 | -24.49% |
 
-![전략별 성과 수치표](images/11_strategy_table.png)
+![전략별 성과 수치표](images/11_nvo_sentiment.png)
 
 > 시가총액 전략이 가장 높은 수익률(266.4%)과 샤프 비율(1.88)을 기록했으나, MDD도 가장 컸음(-24.49%).  
 > ETF 균형형은 수익률은 낮지만 MDD -6.54%로 가장 안정적인 하방 방어력을 보임.
 
 ### 4가지 전략 비교 차트
 
-![4가지 전략 포트폴리오 가치 비교](images/09_4strategy_value.png)
-
-![4가지 전략 수익률 비교](images/10_4strategy_return.png)
+![4가지 전략 포트폴리오 가치 및 수익률 비교](images/06_4strategy_compare.png)
 
 ---
 
@@ -65,15 +63,11 @@ This project implements a **semi-automated portfolio construction and evaluation
 
 ### 개별주식 블렌딩 백테스팅
 
-![개별주식 블렌딩 백테스팅 포트폴리오 가치](images/02_stock_backtest_value.png)
-
-![개별주식 블렌딩 수익률 변화](images/03_stock_backtest_return.png)
+![개별주식 블렌딩 백테스팅](images/04_stock_backtest.png)
 
 ### ETF vs 개별주식 비교
 
-![ETF vs 개별주식 포트폴리오 가치 비교](images/05_etf_vs_stock_value.png)
-
-![ETF vs 개별주식 수익률 비교](images/06_etf_vs_stock_return.png)
+![ETF vs 개별주식 비교](images/05_etf_vs_stock.png)
 
 ---
 
@@ -88,7 +82,7 @@ This project implements a **semi-automated portfolio construction and evaluation
 | C: 매월 NVO | 142.7만원 |
 | D: 매월 VOO | **264.8만원** |
 
-![NVO vs VOO 적립식 비교 금액](images/14_nvo_voo_dca_value.png)
+![NVO vs VOO 적립식 비교](images/08_nvo_voo_dca.png)
 
 ![NVO vs VOO 수익률 비교](images/15_nvo_voo_dca_return.png)
 
@@ -113,6 +107,8 @@ This project implements a **semi-automated portfolio construction and evaluation
 | 일반 계좌 세금 (양도세 22%) | 270만원 | 917만원 |
 | ISA 계좌 세금 | 126만원 | 418만원 |
 | **ISA 절세 효과** | **143만원** | **499만원** |
+
+![ETF 균형형 세금 계산 결과](images/26_etf_tax_result.png)
 
 > ISA 계좌 활용 시 블렌딩 전략 기준 약 499만원의 세금 절감 효과가 있음.
 
@@ -160,7 +156,7 @@ LLM 기반 뉴스 감성 분석 + 기술적 지표(RSI, 이동평균, 거래량)
 | META | 5.0% | 10.4% | **7.7%** |
 | TSLA | 5.0% | 9.9% | **7.5%** |
 
-![개별주식 블렌딩 비중 파이차트](images/01_blend_weights_pie.png)
+![개별주식 블렌딩 비중 파이차트](images/01_blend_weights.png)
 
 ### ETF Portfolio / ETF 포트폴리오
 
