@@ -31,8 +31,18 @@ This project implements a **semi-automated portfolio construction and evaluation
 | 모멘텀 | **155.8%** | 1.84 | -19.01% |
 | 시가총액 | **266.4%** | 1.88 | -24.49% |
 
+![전략별 성과 수치표](images/11_strategy_table.png)
+
 > 시가총액 전략이 가장 높은 수익률(266.4%)과 샤프 비율(1.88)을 기록했으나, MDD도 가장 컸음(-24.49%).  
 > ETF 균형형은 수익률은 낮지만 MDD -6.54%로 가장 안정적인 하방 방어력을 보임.
+
+### 4가지 전략 비교 차트
+
+![4가지 전략 포트폴리오 가치 비교](images/09_4strategy_value.png)
+
+![4가지 전략 수익률 비교](images/10_4strategy_return.png)
+
+---
 
 ### ETF Universe Performance / ETF 개별 성과
 
@@ -42,6 +52,30 @@ This project implements a **semi-automated portfolio construction and evaluation
 | SPY | 16.35% | 20.43% |
 | SCHD | 13.06% | 19.03% |
 | BND | 1.07% | 6.54% |
+
+![ETF 누적 수익률](images/23_etf_cumulative_return.png)
+
+### ETF 균형형 백테스팅
+
+![ETF 균형형 백테스팅 포트폴리오 가치](images/24_etf_backtest_value.png)
+
+![ETF 균형형 수익률 변화](images/25_etf_backtest_return.png)
+
+---
+
+### 개별주식 블렌딩 백테스팅
+
+![개별주식 블렌딩 백테스팅 포트폴리오 가치](images/02_stock_backtest_value.png)
+
+![개별주식 블렌딩 수익률 변화](images/03_stock_backtest_return.png)
+
+### ETF vs 개별주식 비교
+
+![ETF vs 개별주식 포트폴리오 가치 비교](images/05_etf_vs_stock_value.png)
+
+![ETF vs 개별주식 수익률 비교](images/06_etf_vs_stock_return.png)
+
+---
 
 ### DCA Comparison: NVO vs VOO / 적립식 투자 비교
 
@@ -54,7 +88,17 @@ This project implements a **semi-automated portfolio construction and evaluation
 | C: 매월 NVO | 142.7만원 |
 | D: 매월 VOO | **264.8만원** |
 
+![NVO vs VOO 적립식 비교 금액](images/14_nvo_voo_dca_value.png)
+
+![NVO vs VOO 수익률 비교](images/15_nvo_voo_dca_return.png)
+
 > VOO(S&P 500 ETF) 전략이 NVO 단일 종목 대비 일관되게 우수한 성과를 보였음.
+
+---
+
+### 월 투자금별 포트폴리오 가치
+
+![월 투자금별 포트폴리오 가치 비교](images/07_monthly_amount.png)
 
 ---
 
@@ -83,6 +127,16 @@ LLM 기반 뉴스 감성 분석 + 기술적 지표(RSI, 이동평균, 거래량)
 - 뉴스 감성 점수 -0.10 → 중립
 - **종합 신호: 관망 (점수 +0.00)**
 
+![NVO 주가 & 이동평균선](images/18_nvo_chart_ma.png)
+
+![RSI 상대강도지수](images/21_nvo_rsi.png)
+
+![거래량 이상 감지](images/19_nvo_volume.png)
+
+![NVO 뉴스 감성 분석](images/17_nvo_sentiment.png)
+
+![NVO 종합 투자 신호](images/20_nvo_signal.png)
+
 ---
 
 ## 🏦 Universe / 투자 유니버스
@@ -105,6 +159,8 @@ LLM 기반 뉴스 감성 분석 + 기술적 지표(RSI, 이동평균, 거래량)
 | AMZN | 5.0% | 13.0% | **9.0%** |
 | META | 5.0% | 10.4% | **7.7%** |
 | TSLA | 5.0% | 9.9% | **7.5%** |
+
+![개별주식 블렌딩 비중 파이차트](images/01_blend_weights_pie.png)
 
 ### ETF Portfolio / ETF 포트폴리오
 
@@ -182,6 +238,7 @@ portfolio-optimizer/
 ├── tax.py            # 세금 계산 모듈
 ├── report.py         # LLM 리포트 생성
 ├── config.py         # API 키 설정 (미업로드)
+├── images/           # 결과 이미지
 └── README.md
 ```
 
