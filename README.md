@@ -71,7 +71,7 @@ ETF 균형형은 MDD -6.54%로 가장 안정적인 하방 방어력을 보임.
 
 ![4가지 전략 포트폴리오 가치 및 수익률 비교](images/06_4strategy_compare.png)
 
-> 📁 상세 결과는 [`results/`](./results/) 폴더를 참고하세요.
+> 상세 결과는 [`results/`](./results/) 폴더를 참고하세요.
 
 ---
 
