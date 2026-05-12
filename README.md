@@ -1,4 +1,4 @@
-# 📊 Korean Investor Portfolio Optimizer
+# Korean Investor Portfolio Optimizer
 
 > AI-powered portfolio optimization system tailored for Korean retail investors —  
 > with tax-aware backtesting, LLM-generated reports, and multi-strategy comparison.
@@ -8,7 +8,7 @@
 
 ---
 
-## 🗂️ Project Overview / 프로젝트 개요
+## Project Overview / 프로젝트 개요
 
 This project implements a **semi-automated portfolio construction and evaluation pipeline** using U.S. equities and ETFs (2020–present). It compares four optimization strategies, incorporates the Korean tax structure (양도세, ISA account effects), and generates personalized investment reports via LLM.
 
@@ -17,7 +17,7 @@ This project implements a **semi-automated portfolio construction and evaluation
 
 ---
 
-## 📈 Strategies & Results / 전략별 백테스팅 결과
+## Strategies & Results / 전략별 백테스팅 결과
 
 > Backtesting period: 2020–2026 | Monthly investment: ₩300,000 | Universe: 7 U.S. stocks + 4 ETFs  
 > 백테스팅 기간: 2020~2026 | 월 투자금: 30만원 | 유니버스: 미국 주식 7종 + ETF 4종
@@ -96,7 +96,7 @@ This project implements a **semi-automated portfolio construction and evaluation
 
 ---
 
-## 🇰🇷 Korean Tax Simulation / 한국 세금 시뮬레이션
+## Korean Tax Simulation / 한국 세금 시뮬레이션
 
 한국 투자자 환경에 맞게 세금 구조를 직접 반영했습니다.
 
@@ -114,7 +114,7 @@ This project implements a **semi-automated portfolio construction and evaluation
 
 ---
 
-## 📡 NVO Signal Analysis / NVO 투자 신호 분석
+## NVO Signal Analysis / NVO 투자 신호 분석
 
 LLM 기반 뉴스 감성 분석 + 기술적 지표(RSI, 이동평균, 거래량)를 종합한 자동 매매 신호 시스템.
 
@@ -135,7 +135,7 @@ LLM 기반 뉴스 감성 분석 + 기술적 지표(RSI, 이동평균, 거래량)
 
 ---
 
-## 🏦 Universe / 투자 유니버스
+## Universe / 투자 유니버스
 
 ### Individual Stocks (7 tickers) / 개별 주식
 
@@ -169,7 +169,7 @@ LLM 기반 뉴스 감성 분석 + 기술적 지표(RSI, 이동평균, 거래량)
 
 ---
 
-## 🔧 Pipeline / 파이프라인
+## Pipeline / 파이프라인
 
 ```
 데이터 수집 (yfinance, 2020~현재)
@@ -193,7 +193,7 @@ LLM 리포트 생성 (Groq API → 한국어 투자 요약)
 
 ---
 
-## 🚀 Getting Started / 실행 방법
+## Getting Started / 실행 방법
 
 ```bash
 git clone https://github.com/sujin809/portfolio-optimizer.git
@@ -205,14 +205,12 @@ pip install -r requirements.txt
 
 ```python
 # config.py
+# ⚠️ `config.py`는 `.gitignore`에 포함되어 있습니다. API 키가 GitHub에 업로드되지 않도록 주의하세요.
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
-
-> ⚠️ `config.py`는 `.gitignore`에 포함되어 있습니다. API 키가 GitHub에 업로드되지 않도록 주의하세요.
-
 ---
 
-## 🛠️ Tech Stack / 기술 스택
+## Tech Stack / 기술 스택
 
 | Category | Libraries |
 |----------|-----------|
@@ -223,7 +221,7 @@ GROQ_API_KEY = "your_groq_api_key_here"
 
 ---
 
-## 📁 File Structure / 파일 구조
+## File Structure
 
 ```
 portfolio-optimizer/
@@ -240,7 +238,7 @@ portfolio-optimizer/
 
 ---
 
-## 👤 Author / 만든 사람
+## Author
 
 **정수진 (Sujin Jeong)**  
 Industrial Engineering + Biomedical Engineering (Minor), UNIST  
